@@ -5,15 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  moment:
-    specifier: ^2.26.0
-    version: 2.26.0
   qs:
     specifier: ^6.9.4
     version: 6.9.4
   throttle-debounce:
-    specifier: ^2.1.0
-    version: 2.1.0
+    specifier: ^4.0.1
+    version: 4.0.1
   vue:
     specifier: ^2.6.11
     version: 2.6.11
@@ -2570,11 +2567,11 @@ packages:
     dev: true
 
   /inherits@2.0.1:
-    resolution: {integrity: sha512-8nWq2nLTAwd02jTqJExUYFSD/fKq6VH9Y/oG2accc/kdI0V98Bag8d5a4gi3XHz73rDWa2PvTtvcWYquKqSENA==}
+    resolution: {integrity: sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=}
     dev: true
 
   /inherits@2.0.3:
-    resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
+    resolution: {integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=}
     dev: true
 
   /inherits@2.0.4:
@@ -2994,10 +2991,6 @@ packages:
     dependencies:
       minimist: 1.2.8
     dev: true
-
-  /moment@2.26.0:
-    resolution: {integrity: sha512-oIixUO+OamkUkwjhAVE18rAMfRJNsNe/Stid/gwHSOfHrOtw9EhAY2AHvdKZ/k/MggcYELFCJz/Sn2pL8b8JMw==}
-    dev: false
 
   /move-concurrently@1.0.1:
     resolution: {integrity: sha1-viwAX9oy4LKa8fBdfEszIUxwH5I=}
@@ -3827,9 +3820,9 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /throttle-debounce@2.1.0:
-    resolution: {integrity: sha512-AOvyNahXQuU7NN+VVvOOX+uW6FPaWdAOdRP5HfwYxAfCzXTFKRMoIMk+n+po318+ktcChx+F1Dd91G3YHeMKyg==}
-    engines: {node: '>=8'}
+  /throttle-debounce@4.0.1:
+    resolution: {integrity: sha512-s3PedbXdZtr8v3J5Sxd5T/GmWG80BcK5GVpwDdvgEaUXsaMqQe4zxgmC4TA7B8luSDCPxo3CeSBS3F9rF1CZwg==}
+    engines: {node: '>=12.22'}
     dev: false
 
   /through2@2.0.5:

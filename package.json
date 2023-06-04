@@ -9,9 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "moment": "^2.26.0",
     "qs": "^6.9.4",
-    "throttle-debounce": "^2.1.0",
+    "throttle-debounce": "^4.0.1",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11",
     "vuex": "^3.4.0"

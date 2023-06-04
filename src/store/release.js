@@ -1,4 +1,3 @@
-import moment from 'moment';
 import { debounce } from 'throttle-debounce';
 import { parseHistory } from '../utils/history';
 
@@ -9,7 +8,7 @@ async function load(name) {
     ...json,
     data: json.data.map(item => ({
       ...item,
-      date: moment.utc(item.date).format('YYYY-MM-DD'),
+      date: item.date.split('T')[0],
     })),
   };
 }
