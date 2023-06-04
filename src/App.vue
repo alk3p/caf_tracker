@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app dark color="cyan">
+    <v-app-bar app dark color="teal darken-3">
       <v-toolbar-title>CAF Tracker</v-toolbar-title>
       <v-spacer />
       <Search />
